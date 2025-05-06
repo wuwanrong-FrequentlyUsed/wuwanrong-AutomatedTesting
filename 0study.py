@@ -1,4 +1,7 @@
 # python面向对象
+# 终端 alt+f12
+# 注释 ctrl+/
+# 调整格式 ctrl+alt+l
 
 # 打印字符串
 print("hello world")
