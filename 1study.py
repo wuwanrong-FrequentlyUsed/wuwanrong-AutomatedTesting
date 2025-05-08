@@ -5,7 +5,8 @@ print("----游戏----")
 temp = input("数字: ")
 # 转换为整型
 guess = int(temp)
-while guess != 8:
+i = 2
+while guess != 8 and i:
     # 字符串
     temp = input("请再次输入你猜的数字: ")
     # 转换为整型
@@ -18,6 +19,7 @@ while guess != 8:
             print("猜小了")
         else:
             print("猜大了")
+    i = i-1
 print("游戏结束啦")
 
 
