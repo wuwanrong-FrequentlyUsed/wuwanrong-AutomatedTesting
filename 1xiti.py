@@ -1,10 +1,24 @@
-name = input("请输入你的姓名：")
-print("你好," + name)
+# name = input("请输入你的姓名：")
+# print("你好," + name +"!")
 
+# while 'c':
+#     print('ac!')
+#
+# i=10
+# while i:
+#     print('ccc')
+#     i=i-1
+
+# DaysPeryear = 365
+# HoursPerDay = 24
+# MinutesPerHour = 60
+# SecondsPerMinute = 60
+# OneYear = DaysPeryear * HoursPerDay * MinutesPerHour * SecondsPerMinute
+# print(OneYear)
 
 num = input("请输入1-100之间的数字：")
 guess = int(num)
-if 0 <= guess <= 100:
+if 1 <= guess <= 100:
     print("你真棒")
 else:
     print("错啦")
