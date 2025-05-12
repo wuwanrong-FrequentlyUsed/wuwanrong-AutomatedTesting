@@ -1,5 +1,6 @@
 # BIF == Built-in function 内置函数，方便程序员快速调用。小写的为bif内置函数
 # ==判断是否相等，=赋值
+import random
 print("----游戏----")
 # 字符串
 temp = input("数字: ")
